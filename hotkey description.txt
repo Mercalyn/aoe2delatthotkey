@@ -1,0 +1,59 @@
+buttons on mouse side: 
+nearest monitor: Home
+nearest self: Ctrl
+
+shift tab: select all TC
+
+dpi mouse button: T, which triggers ctrl T which is attack grnd and attack all in one
+
+I should add a random abdicate selector
+
+
+
+shift-eco build menu:
+q house
+w market
+e mill
+r bsmith
+a wood
+s dock
+d mining
+f farm / fish trap
+g 
+c uni
+z monastery
+tab TC(select all can be shift tab or shift space)
+
+
+
+
+ctrl-mil build menu:
+q archery
+w barracks
+e stable
+r siege
+a pal. gate
+s palisade
+tab outpost
+d wtower
+space castle
+z stone gate
+x stone wall
+c also stone wall
+f bb tower
+g krepost donjon
+
+
+macro specifics
+!alt,^ctrl,+shift
+alt will modify to select built buildings
+backend civ build numpad 8
+backend military build numpad 9
+number 1-4 will select and goto group
+ctrl 1-4 will set groups
+number 1-4 and shift will go to 6-9
+v will attack ground and click
+z minimap all
+x minimap mil
+c minimap eco
+ back to work
