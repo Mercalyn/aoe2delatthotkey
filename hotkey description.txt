@@ -6,6 +6,19 @@ shift tab: select all TC
 
 dpi mouse button: T, which triggers ctrl T which is attack grnd and attack all in one
 
+coords and colors:
+upper hilt
+113,1202 - 129,1217
+e0b45a(middle),c49441(dark),fff8c9(light)
+coin
+39,1229 - 59,1249
+fcee7a(light),4d3d19(dark)
+in build menu sky
+365,1345
+cc0000
+
+
+
 I should add a random abdicate selector
 
 
