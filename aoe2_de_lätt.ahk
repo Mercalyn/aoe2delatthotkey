@@ -118,16 +118,66 @@ select_eco(hotkey){
 return
 
 
+; -------------- ABDICATE --------------
+^Numpad9::
+	Array := []
+	Array.push("Alas, I could not micro well!")
+	Array.push("Alas, mine hotkeys wert lame!")
+	Array.push("Alas, mine berries wert too forward!")
+	Array.push("Alas, mine university did not accept wood as payment!")
+	Array.push("The Queen told the men to research Supplies!")
+	Array.push("The Queen forgot critical blacksmith upgrades!")
+	Array.push("The Queen colonised too many corners!")
+	Array.push("The Queen did place mining camps at the woodline!")
+	Array.push("The King misplaced his throne!")
+	Array.push("Mine tradecarts started trading berry futures!")
+	Array.push("Mine monks were all selfish(mimimi)!")
+	Array.push("Mine strategy smellt of fish traps!")
+	Array.push("Mine gold miners went to strike!")
+	Array.push("Mine villagers sought to play Age of Dice Games instead!")
+	Array.push("Mine villagers preferred to mine AgeCoin instead!")
+	Array.push("Mine network ping wert too high!")
+	Array.push("Mine Army desired instead to make it to Age of Empires III!")
+	Array.push("Mine Town Centre went vegan!")
+	Array.push("Mine siege workshops unionised!")
+	Array.push("Nobody wanted to farm cabbages anymore!")
+	Array.push("Thine economy did boom too great!")
+	Array.push("Thine cultural victory did prevail!")
+	Array.push("Thine city planning was too impeccable!")
+	Array.push("A Palisaded Community didst not make me a good neighbour!")
+	Array.push("A petard made it to the royal feast!")
+	Array.push("Small trees presented thee a risk to me!")
+	Array.push("Didst thee study under Nostradamus? Thine strategy contained perfect counters!")
+	Array.push("Under which god did thine monks worship!?")
+	Array.push("The stone market deepened my already depressing economy!")
+	Array.push("The castles couldst not install murder holes after the fact!")
+	Array.push("The trebuchets found themselves on mars!")
+	Array.push("The village found themselves without law and order! These are their stories!")
+	Array.push("Generation-A didst not want to work themselves to death!")
+	maxLength := Array.Length() - 1
+	Random, randomNum, 0, maxLength
+	for index, element in Array{
+		if((index - 1) = randomNum){
+			sendRaw, %element%
+		}
+	}
+	send, {Enter}
+	sendRaw, I shall abdicate!
+	send, {Enter}
+return
+
+
 ; -------------- UTILITY --------------
-Numpad2::
+^Numpad2::
 	MouseGetPos, xMouse, yMouse
 	PixelGetColor, colorOut, %xMouse%, %yMouse%, Fast
 	MsgBox, X: %xMouse%, Y: %yMouse%, Color: %colorOut%
 return
-Numpad3::
+^Numpad3::
 	stringVal := isBuildMenu()
 	MsgBox, %stringVal%
 return
+
 
 
 NumpadMult::
