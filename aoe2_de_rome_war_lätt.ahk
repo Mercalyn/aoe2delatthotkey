@@ -45,7 +45,7 @@ isBuildMenu(){
 	; false for not a build menu
 	; true for yes build menu
 	sleep, 20
-	PixelSearch, Px, Py, 113, 1202, 129, 1217, 0xe0b45a, 1, Fast RGB
+	PixelSearch, Px, Py, 65, 1205, 86, 1227, 0xe5e2a1, 1, Fast RGB
 	if ErrorLevel{
 		; did not find first menu
 		PixelSearch, Px, Py, 318, 1343, 372, 1396, 0xcc0000, 1, Fast RGB
@@ -58,7 +58,7 @@ isBuildMenu(){
 		}
 	}else{
 		; found on first menu, but need to confirm
-		PixelSearch, Px, Py, 39, 1229, 59, 1249, 0xfcee7a, 1, Fast RGB
+		PixelSearch, Px, Py, 65, 1205, 86, 1227, 0x7f6535, 1, Fast RGB
 		if ErrorLevel{
 			;MsgBox, not found
 			return false

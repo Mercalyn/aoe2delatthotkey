@@ -17,6 +17,10 @@ in build menu sky
 365,1345
 cc0000
 
+is attack ground
+if not , split
+318, 1242
+366, 1254
 
 
 I should add a random abdicate selector
