@@ -1,0 +1,11 @@
+the Lite4 folder should go in:
+C:\Steam\userdata\{random-number}\813780\remote\Lite4\Base.hkp
+
+Found the Lite4.hkp lone file in:
+C:\Steam\userdata\{random-number}\813780\remote\Lite4.hkp
+
+Might also need to upload it to
+%USERPROFILE%\Games\Age of Empires 2 DE\{your-steam-id}\profile\{profile-name}.hki
+
+
+as per https://aokhotkeys.appspot.com/
